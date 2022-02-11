@@ -57,8 +57,7 @@ public class Plataform : MonoBehaviour
                 // fire blue 
                 fire[1].SetActive(true);
 
-                contartempodojogo1 = tempo1;
-                contartempodojogo2 = tempo2;
+               
 
 
                 
