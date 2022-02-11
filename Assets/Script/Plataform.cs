@@ -82,4 +82,4 @@ public class Plataform : MonoBehaviour
 
         
 }
-}
+
