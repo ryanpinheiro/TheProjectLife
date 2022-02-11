@@ -48,6 +48,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Player.cs" />
+     <Compile Include="Assets\Script\Menu.cs" />
+     <Compile Include="Assets\Script\Destrir.cs" />
+     <Compile Include="Assets\Script\Plataform.cs" />
      <None Include="Assets\PixelArtPackSideScroller3\Environment\#a6fcdb.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
