@@ -139,10 +139,7 @@ public class Player : MonoBehaviour
                 animator.SetBool("Death", true);
                 animator.SetBool("Run",false);
                 rigidbody2d.bodyType = RigidbodyType2D.Static;
-                morte1 = true;
-                
-
-                
+                morte1 = true; 
             }
         }
 
@@ -160,6 +157,23 @@ public class Player : MonoBehaviour
           
           
 
+        }
+
+        void OnCollisionEnter2D(Collision2D col) {
+
+            if(col.gameObject.layer == 7){
+                this.transform.parent = col.transform;
+                if(Input.GetButtonDown("Jump")){
+                    this.transform.parent = null;
+                }
+            }
+            
+        }
+
+        private void OnCollisionExit2D(Collision2D col) {
+            if(col.gameObject.layer == 7){
+                this.transform.parent = null;
+            }
         }
 
 }
