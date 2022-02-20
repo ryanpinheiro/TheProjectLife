@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6956382676810363596}
-  - component: {fileID: 6956382676810363597}
+  - component: {fileID: 2123264432}
+  - component: {fileID: 2687939101719200285}
   m_Layer: 0
   m_Name: ControlePaltaform
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6956382676810363597
+--- !u!114 &2123264432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,7 +44,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a5ff536f9d72940aac681678ea5bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1230467274339774510, guid: 6a5f9da397f41274a82dc9679fd890f5, type: 3}
-  plataforms: {fileID: 1230467274339774508, guid: 6a5f9da397f41274a82dc9679fd890f5, type: 3}
-  quantidaede: 0
-  controle: 0
+  plataform: {fileID: 0}
+--- !u!114 &2687939101719200285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956382676810363598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2bffa24ec52b049b846f1a3da0a156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blue: []
+  red: []
+  waterBlue: []
+  waterRed: []
+  TreenRed: []
+  TreenBlue: []
+  fire: []
+  cameraDoGame: {fileID: 0}
+  PontoA: {fileID: 0}
+  PontoB: {fileID: 0}
+  botao: {fileID: 0}
